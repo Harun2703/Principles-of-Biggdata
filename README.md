@@ -1,1 +1,1 @@
-# Principles-of-Biggdata
+Extracted tweets from twitter with the help of tweepy library and secret tokens.Sorted the data into hashtags_wwe.txt and url_wwe.txt.After installing the prerequisites like Hadoop and Spark executed the word count program in hadoop and spark and saved the output into HDFS file store.  
