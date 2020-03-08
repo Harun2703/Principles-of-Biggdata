@@ -1,0 +1,1544 @@
+21/02/20 13:33:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/02/20 13:33:23 WARN Utils: Your hostname, quickstart.cloudera resolves to a loopback address: 127.0.0.1; using 10.0.2.15 instead (on interface eth0)
+21/02/20 13:33:23 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/02/20 13:33:28 WARN DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+21/02/20 13:34:07 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/02/20 13:34:08 WARN Utils: Your hostname, quickstart.cloudera resolves to a loopback address: 127.0.0.1; using 10.0.2.15 instead (on interface eth0)
+21/02/20 13:34:08 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/02/20 13:34:15 WARN DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+21/02/20 13:34:20 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 99.9 KB, free 534.4 MB)
+21/02/20 13:34:20 DEBUG BlockManager: Put block broadcast_0 locally took  96 ms
+21/02/20 13:34:20 DEBUG BlockManager: Putting block broadcast_0 without replication took  96 ms
+21/02/20 13:34:20 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 24.6 KB, free 534.4 MB)
+21/02/20 13:34:20 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:40210 (size: 24.6 KB, free: 534.5 MB)
+21/02/20 13:34:20 DEBUG BlockManagerMaster: Updated info of block broadcast_0_piece0
+21/02/20 13:34:20 DEBUG BlockManager: Told master about block broadcast_0_piece0
+21/02/20 13:34:20 DEBUG BlockManager: Put block broadcast_0_piece0 locally took  456 ms
+21/02/20 13:34:20 DEBUG BlockManager: Putting block broadcast_0_piece0 without replication took  456 ms
+21/02/20 13:34:20 INFO SparkContext: Created broadcast 0 from textFile at <console>:27
+21/02/20 13:34:20 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34) +++
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared fields: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.serialVersionUID
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final org.apache.spark.SparkContext$$anonfun$hadoopFile$1 org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.$outer
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.apply(java.lang.Object)
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final void org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.apply(org.apache.hadoop.mapred.JobConf)
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer classes: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext$$anonfun$hadoopFile$1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer objects: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      <function0>
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext@7eb7c3ac
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext,Set())
+21/02/20 13:34:20 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext$$anonfun$hadoopFile$1,Set(path$6))
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.SparkContext,org.apache.spark.SparkContext@7eb7c3ac)
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + cloning the object <function0> of class org.apache.spark.SparkContext$$anonfun$hadoopFile$1
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + cleaning cloned closure <function0> recursively (org.apache.spark.SparkContext$$anonfun$hadoopFile$1)
+21/02/20 13:34:20 DEBUG ClosureCleaner: +++ Cleaning closure <function0> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1) +++
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared fields: 7
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$hadoopFile$1.serialVersionUID
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final org.apache.spark.SparkContext org.apache.spark.SparkContext$$anonfun$hadoopFile$1.$outer
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final java.lang.String org.apache.spark.SparkContext$$anonfun$hadoopFile$1.path$6
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.inputFormatClass$1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.keyClass$1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.valueClass$1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      private final int org.apache.spark.SparkContext$$anonfun$hadoopFile$1.minPartitions$3
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$hadoopFile$1.apply()
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final org.apache.spark.rdd.HadoopRDD org.apache.spark.SparkContext$$anonfun$hadoopFile$1.apply()
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + inner classes: 1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer classes: 1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer objects: 1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      org.apache.spark.SparkContext@7eb7c3ac
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext,Set())
+21/02/20 13:34:20 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext$$anonfun$hadoopFile$1,Set(path$6))
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.SparkContext,org.apache.spark.SparkContext@7eb7c3ac)
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + the starting closure doesn't actually need org.apache.spark.SparkContext@7eb7c3ac, so we null it out
+21/02/20 13:34:20 DEBUG ClosureCleaner:  +++ closure <function0> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1) is now cleaned +++
+21/02/20 13:34:20 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34) is now cleaned +++
+21/02/20 13:34:20 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9) +++
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.serialVersionUID
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.apply(java.lang.Object)
+21/02/20 13:34:20 DEBUG ClosureCleaner:      public final java.lang.String org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.apply(scala.Tuple2)
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:20 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:20 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9) is now cleaned +++
+21/02/20 13:34:23 DEBUG ClosureCleaner: +++ Cleaning closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2) +++
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.serialVersionUID
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.apply(java.lang.Object)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final scala.collection.mutable.ArrayOps $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.apply(java.lang.String)
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:23 DEBUG ClosureCleaner:  +++ closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2) is now cleaned +++
+21/02/20 13:34:23 DEBUG ClosureCleaner: +++ Cleaning closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3) +++
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.serialVersionUID
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.apply(java.lang.Object)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final scala.Tuple2 $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.apply(java.lang.String)
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:23 DEBUG ClosureCleaner:  +++ closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3) is now cleaned +++
+21/02/20 13:34:23 DEBUG BlockManager: Getting local block broadcast_0
+21/02/20 13:34:23 DEBUG BlockManager: Level for block broadcast_0 is StorageLevel(true, true, false, true, 1)
+21/02/20 13:34:23 DEBUG BlockManager: Getting block broadcast_0 from memory
+21/02/20 13:34:23 DEBUG HadoopRDD: Creating new JobConf and caching it for later re-use
+21/02/20 13:34:23 DEBUG Client: The ping interval is 60000 ms.
+21/02/20 13:34:23 DEBUG Client: Connecting to quickstart.cloudera/127.0.0.1:8020
+21/02/20 13:34:23 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: starting, having connections 1
+21/02/20 13:34:23 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #0 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:23 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #0
+21/02/20 13:34:23 DEBUG ProtobufRpcEngine: Call: getFileInfo took 121ms
+21/02/20 13:34:23 DEBUG FileInputFormat: Time taken to get FileStatuses: 186
+21/02/20 13:34:23 INFO FileInputFormat: Total input paths to process : 1
+21/02/20 13:34:23 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #1 org.apache.hadoop.hdfs.protocol.ClientProtocol.getBlockLocations
+21/02/20 13:34:23 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #1
+21/02/20 13:34:23 DEBUG ProtobufRpcEngine: Call: getBlockLocations took 3ms
+21/02/20 13:34:23 DEBUG FileInputFormat: Total # of splits generated by getSplits: 1, TimeTaken: 673
+21/02/20 13:34:23 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13) +++
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13.serialVersionUID
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared methods: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13.apply(java.lang.Object)
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:23 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13) is now cleaned +++
+21/02/20 13:34:23 DEBUG ClosureCleaner: +++ Cleaning closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) +++
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.serialVersionUID
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared methods: 3
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply$mcIII$sp(int,int)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(int,int)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(java.lang.Object,java.lang.Object)
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:23 DEBUG ClosureCleaner:  +++ closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) is now cleaned +++
+21/02/20 13:34:23 DEBUG ClosureCleaner: +++ Cleaning closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) +++
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.serialVersionUID
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + declared methods: 3
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply$mcIII$sp(int,int)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(int,int)
+21/02/20 13:34:23 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(java.lang.Object,java.lang.Object)
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:23 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:23 DEBUG ClosureCleaner:  +++ closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) is now cleaned +++
+21/02/20 13:34:24 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30) +++
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.serialVersionUID
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.apply(java.lang.Object)
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final scala.collection.Iterator org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.apply(scala.collection.Iterator)
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + inner classes: 1
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30$$anonfun$apply$53
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:34:24 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30) is now cleaned +++
+21/02/20 13:34:24 DEBUG PairRDDFunctions: Saving as hadoop file of type (NullWritable, Text)
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #2 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #2
+21/02/20 13:34:24 DEBUG ProtobufRpcEngine: Call: getFileInfo took 2ms
+21/02/20 13:34:24 INFO deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+21/02/20 13:34:24 INFO deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+21/02/20 13:34:24 INFO deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+21/02/20 13:34:24 INFO deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+21/02/20 13:34:24 INFO deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+21/02/20 13:34:24 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+21/02/20 13:34:24 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+21/02/20 13:34:24 DEBUG DFSClient: /user/cloudera/outfilenew10/_temporary/0: masked={ masked: rwxr-xr-x, unmasked: rwxrwxrwx }
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #3 org.apache.hadoop.hdfs.protocol.ClientProtocol.mkdirs
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #3
+21/02/20 13:34:24 DEBUG ProtobufRpcEngine: Call: mkdirs took 4ms
+21/02/20 13:34:24 DEBUG ClosureCleaner: +++ Cleaning closure <function2> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13) +++
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared fields: 3
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.serialVersionUID
+21/02/20 13:34:24 DEBUG ClosureCleaner:      private final org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1 org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.$outer
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final org.apache.spark.SparkHadoopWriter org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.writer$2
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared methods: 3
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1 org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.org$apache$spark$rdd$PairRDDFunctions$$anonfun$$anonfun$$$outer()
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final void org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.apply(org.apache.spark.TaskContext,scala.collection.Iterator)
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13.apply(java.lang.Object,java.lang.Object)
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + inner classes: 4
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$9
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$7
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$58
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$8
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer classes: 2
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer objects: 2
+21/02/20 13:34:24 DEBUG ClosureCleaner:      <function0>
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions@3586697a
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:34:24 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.PairRDDFunctions,Set())
+21/02/20 13:34:24 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1,Set($outer))
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.rdd.PairRDDFunctions,org.apache.spark.rdd.PairRDDFunctions@3586697a)
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + cloning the object <function0> of class org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + cleaning cloned closure <function0> recursively (org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1)
+21/02/20 13:34:24 DEBUG ClosureCleaner: +++ Cleaning closure <function0> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1) +++
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared fields: 3
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.serialVersionUID
+21/02/20 13:34:24 DEBUG ClosureCleaner:      private final org.apache.spark.rdd.PairRDDFunctions org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.$outer
+21/02/20 13:34:24 DEBUG ClosureCleaner:      private final org.apache.hadoop.mapred.JobConf org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.conf$4
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + declared methods: 4
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public org.apache.spark.rdd.PairRDDFunctions org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.org$apache$spark$rdd$PairRDDFunctions$$anonfun$$$outer()
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public void org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.apply$mcV$sp()
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.apply()
+21/02/20 13:34:24 DEBUG ClosureCleaner:      public final void org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1.apply()
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + inner classes: 6
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$9
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$7
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$58
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$apply$mcV$sp$4
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13$$anonfun$apply$8
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer classes: 1
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outer objects: 1
+21/02/20 13:34:24 DEBUG ClosureCleaner:      org.apache.spark.rdd.PairRDDFunctions@3586697a
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:34:24 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.PairRDDFunctions,Set())
+21/02/20 13:34:24 DEBUG ClosureCleaner:      (class org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1,Set($outer))
+21/02/20 13:34:24 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.rdd.PairRDDFunctions,org.apache.spark.rdd.PairRDDFunctions@3586697a)
+21/02/20 13:34:24 DEBUG ClosureCleaner:  +++ closure <function0> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1) is now cleaned +++
+21/02/20 13:34:24 DEBUG ClosureCleaner:  +++ closure <function2> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$saveAsHadoopDataset$1$$anonfun$13) is now cleaned +++
+21/02/20 13:34:24 INFO SparkContext: Starting job: saveAsTextFile at <console>:32
+21/02/20 13:34:24 DEBUG SortShuffleManager: Can't use serialized shuffle for shuffle 0 because the serializer, org.apache.spark.serializer.JavaSerializer, does not support object relocation
+21/02/20 13:34:24 INFO DAGScheduler: Registering RDD 3 (map at <console>:29)
+21/02/20 13:34:24 INFO DAGScheduler: Got job 0 (saveAsTextFile at <console>:32) with 1 output partitions
+21/02/20 13:34:24 INFO DAGScheduler: Final stage: ResultStage 1 (saveAsTextFile at <console>:32)
+21/02/20 13:34:24 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+21/02/20 13:34:24 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ResultStage 1)
+21/02/20 13:34:24 DEBUG DAGScheduler: missing: List(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: missing: List()
+21/02/20 13:34:24 INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at map at <console>:29), which has no missing parents
+21/02/20 13:34:24 DEBUG DAGScheduler: submitMissingTasks(ShuffleMapStage 0)
+21/02/20 13:34:24 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 4.2 KB, free 534.4 MB)
+21/02/20 13:34:24 DEBUG BlockManager: Put block broadcast_1 locally took  0 ms
+21/02/20 13:34:24 DEBUG BlockManager: Putting block broadcast_1 without replication took  1 ms
+21/02/20 13:34:24 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 2.3 KB, free 534.4 MB)
+21/02/20 13:34:24 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on localhost:40210 (size: 2.3 KB, free: 534.5 MB)
+21/02/20 13:34:24 DEBUG BlockManagerMaster: Updated info of block broadcast_1_piece0
+21/02/20 13:34:24 DEBUG BlockManager: Told master about block broadcast_1_piece0
+21/02/20 13:34:24 DEBUG BlockManager: Put block broadcast_1_piece0 locally took  2 ms
+21/02/20 13:34:24 DEBUG BlockManager: Putting block broadcast_1_piece0 without replication took  2 ms
+21/02/20 13:34:24 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1004
+21/02/20 13:34:24 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at map at <console>:29) (first 15 tasks are for partitions Vector(0))
+21/02/20 13:34:24 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+21/02/20 13:34:24 DEBUG TaskSetManager: Epoch for TaskSet 0.0: 0
+21/02/20 13:34:24 DEBUG TaskSetManager: Valid locality levels for TaskSet 0.0: ANY
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ResultStage 1)
+21/02/20 13:34:24 DEBUG DAGScheduler: missing: List(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ResultStage 1)
+21/02/20 13:34:24 DEBUG DAGScheduler: missing: List(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_0, runningTasks: 0
+21/02/20 13:34:24 DEBUG TaskSetManager: Valid locality levels for TaskSet 0.0: ANY
+21/02/20 13:34:24 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, ANY, 2132 bytes)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ResultStage 1)
+21/02/20 13:34:24 DEBUG DAGScheduler: missing: List(ShuffleMapStage 0)
+21/02/20 13:34:24 DEBUG DAGScheduler: submitStage(ShuffleMapStage 0)
+21/02/20 13:34:24 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+21/02/20 13:34:24 DEBUG Executor: Task 0's epoch is 0
+21/02/20 13:34:24 DEBUG BlockManager: Getting local block broadcast_1
+21/02/20 13:34:24 DEBUG BlockManager: Level for block broadcast_1 is StorageLevel(true, true, false, true, 1)
+21/02/20 13:34:24 DEBUG BlockManager: Getting block broadcast_1 from memory
+21/02/20 13:34:24 INFO HadoopRDD: Input split: hdfs://quickstart.cloudera:8020/user/cloudera/input/urlsfromtweets1.txt:0+1284718
+21/02/20 13:34:24 DEBUG BlockManager: Getting local block broadcast_0
+21/02/20 13:34:24 DEBUG BlockManager: Level for block broadcast_0 is StorageLevel(true, true, false, true, 1)
+21/02/20 13:34:24 DEBUG BlockManager: Getting block broadcast_0 from memory
+21/02/20 13:34:24 DEBUG HadoopRDD: Re-using cached JobConf
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #4 org.apache.hadoop.hdfs.protocol.ClientProtocol.getBlockLocations
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #4
+21/02/20 13:34:24 DEBUG ProtobufRpcEngine: Call: getBlockLocations took 2ms
+21/02/20 13:34:24 DEBUG DFSClient: newInfo = LocatedBlocks{
+  fileLength=1284718
+  underConstruction=false
+  blocks=[LocatedBlock{BP-1067413441-127.0.0.1-1508775264580:blk_1073742906_2083; getBlockSize()=1284718; corrupt=false; offset=0; locs=[DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]]}]
+  lastLocatedBlock=LocatedBlock{BP-1067413441-127.0.0.1-1508775264580:blk_1073742906_2083; getBlockSize()=1284718; corrupt=false; offset=0; locs=[DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]]}
+  isLastBlockComplete=true}
+21/02/20 13:34:24 DEBUG DFSClient: Connecting to datanode 127.0.0.1:50010
+21/02/20 13:34:24 DEBUG PerformanceAdvisory: BlockReaderFactory(fileName=/user/cloudera/input/urlsfromtweets1.txt, block=BP-1067413441-127.0.0.1-1508775264580:blk_1073742906_2083): PathInfo{path=, state=UNUSABLE} is not usable for short circuit; giving up on BlockReaderLocal.
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #5 org.apache.hadoop.hdfs.protocol.ClientProtocol.getServerDefaults
+21/02/20 13:34:24 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #5
+21/02/20 13:34:24 DEBUG ProtobufRpcEngine: Call: getServerDefaults took 1ms
+21/02/20 13:34:24 DEBUG SaslDataTransferClient: SASL client skipping handshake in unsecured configuration for addr = /127.0.0.1, datanodeId = DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]
+21/02/20 13:34:25 DEBUG TaskMemoryManager: Task 0 release 0.0 B from org.apache.spark.util.collection.ExternalSorter@1ffd9222
+21/02/20 13:34:25 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2253 bytes result sent to driver
+21/02/20 13:34:25 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_0, runningTasks: 0
+21/02/20 13:34:25 DEBUG DAGScheduler: ShuffleMapTask finished on driver
+21/02/20 13:34:25 INFO DAGScheduler: ShuffleMapStage 0 (map at <console>:29) finished in 1.138 s
+21/02/20 13:34:25 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1122 ms on localhost (executor driver) (1/1)
+21/02/20 13:34:25 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+21/02/20 13:34:25 INFO DAGScheduler: looking for newly runnable stages
+21/02/20 13:34:25 INFO DAGScheduler: running: Set()
+21/02/20 13:34:25 INFO DAGScheduler: waiting: Set(ResultStage 1)
+21/02/20 13:34:25 INFO DAGScheduler: failed: Set()
+21/02/20 13:34:25 DEBUG MapOutputTrackerMaster: Increasing epoch to 1
+21/02/20 13:34:25 DEBUG DAGScheduler: submitStage(ResultStage 1)
+21/02/20 13:34:25 DEBUG DAGScheduler: missing: List()
+21/02/20 13:34:25 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[5] at saveAsTextFile at <console>:32), which has no missing parents
+21/02/20 13:34:25 DEBUG DAGScheduler: submitMissingTasks(ResultStage 1)
+21/02/20 13:34:25 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 77.3 KB, free 534.3 MB)
+21/02/20 13:34:25 DEBUG BlockManager: Put block broadcast_2 locally took  1 ms
+21/02/20 13:34:25 DEBUG BlockManager: Putting block broadcast_2 without replication took  1 ms
+21/02/20 13:34:25 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 27.5 KB, free 534.3 MB)
+21/02/20 13:34:25 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on localhost:40210 (size: 27.5 KB, free: 534.5 MB)
+21/02/20 13:34:25 DEBUG BlockManagerMaster: Updated info of block broadcast_2_piece0
+21/02/20 13:34:25 DEBUG BlockManager: Told master about block broadcast_2_piece0
+21/02/20 13:34:25 DEBUG BlockManager: Put block broadcast_2_piece0 locally took  1 ms
+21/02/20 13:34:25 DEBUG BlockManager: Putting block broadcast_2_piece0 without replication took  1 ms
+21/02/20 13:34:25 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1004
+21/02/20 13:34:25 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[5] at saveAsTextFile at <console>:32) (first 15 tasks are for partitions Vector(0))
+21/02/20 13:34:25 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks
+21/02/20 13:34:25 DEBUG TaskSetManager: Epoch for TaskSet 1.0: 1
+21/02/20 13:34:25 DEBUG TaskSetManager: Valid locality levels for TaskSet 1.0: NODE_LOCAL, ANY
+21/02/20 13:34:25 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_1, runningTasks: 0
+21/02/20 13:34:25 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, NODE_LOCAL, 1894 bytes)
+21/02/20 13:34:25 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+21/02/20 13:34:25 DEBUG Executor: Task 1's epoch is 1
+21/02/20 13:34:25 DEBUG BlockManager: Getting local block broadcast_2
+21/02/20 13:34:25 DEBUG BlockManager: Level for block broadcast_2 is StorageLevel(true, true, false, true, 1)
+21/02/20 13:34:25 DEBUG BlockManager: Getting block broadcast_2 from memory
+21/02/20 13:34:25 DEBUG MapOutputTrackerMaster: Fetching outputs for shuffle 0, partitions 0-1
+21/02/20 13:34:25 DEBUG ShuffleBlockFetcherIterator: maxBytesInFlight: 50331348, targetRequestSize: 10066329
+21/02/20 13:34:25 INFO ShuffleBlockFetcherIterator: Getting 1 non-empty blocks out of 1 blocks
+21/02/20 13:34:25 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 2 ms
+21/02/20 13:34:25 DEBUG ShuffleBlockFetcherIterator: Got local blocks in  7 ms
+21/02/20 13:34:26 DEBUG ContextCleaner: Got cleaning task CleanBroadcast(1)
+21/02/20 13:34:26 DEBUG ContextCleaner: Cleaning broadcast 1
+21/02/20 13:34:26 DEBUG TorrentBroadcast: Unpersisting TorrentBroadcast 1
+21/02/20 13:34:26 DEBUG BlockManagerSlaveEndpoint: removing broadcast 1
+21/02/20 13:34:26 DEBUG BlockManager: Removing broadcast 1
+21/02/20 13:34:26 DEBUG BlockManager: Removing block broadcast_1_piece0
+21/02/20 13:34:26 DEBUG MemoryStore: Block broadcast_1_piece0 of size 2388 dropped from memory (free 560258823)
+21/02/20 13:34:26 INFO BlockManagerInfo: Removed broadcast_1_piece0 on localhost:40210 in memory (size: 2.3 KB, free: 534.5 MB)
+21/02/20 13:34:26 DEBUG BlockManagerMaster: Updated info of block broadcast_1_piece0
+21/02/20 13:34:26 DEBUG BlockManager: Told master about block broadcast_1_piece0
+21/02/20 13:34:26 DEBUG BlockManager: Removing block broadcast_1
+21/02/20 13:34:26 DEBUG MemoryStore: Block broadcast_1 of size 4328 dropped from memory (free 560263151)
+21/02/20 13:34:26 DEBUG BlockManagerSlaveEndpoint: Done removing broadcast 1, response is 2
+21/02/20 13:34:26 DEBUG BlockManagerSlaveEndpoint: Sent response: 2 to 10.0.2.15:38599
+21/02/20 13:34:26 DEBUG ContextCleaner: Cleaned broadcast 1
+21/02/20 13:34:26 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+21/02/20 13:34:26 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+21/02/20 13:34:26 DEBUG DFSClient: /user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000: masked={ masked: rw-r--r--, unmasked: rw-rw-rw- }
+21/02/20 13:34:26 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #6 org.apache.hadoop.hdfs.protocol.ClientProtocol.create
+21/02/20 13:34:26 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #6
+21/02/20 13:34:26 DEBUG ProtobufRpcEngine: Call: create took 6ms
+21/02/20 13:34:26 DEBUG DFSClient: Set non-null progress callback on DFSOutputStream /user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=0, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+21/02/20 13:34:26 DEBUG LeaseRenewer: Lease renewer daemon for [DFSClient_NONMAPREDUCE_1790208321_1] with renew id 1 started
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=0, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=65024, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 0
+21/02/20 13:34:26 DEBUG DFSClient: Allocating new block
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=1, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=65024
+21/02/20 13:34:26 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #7 org.apache.hadoop.hdfs.protocol.ClientProtocol.addBlock
+21/02/20 13:34:26 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #7
+21/02/20 13:34:26 DEBUG ProtobufRpcEngine: Call: addBlock took 6ms
+21/02/20 13:34:26 DEBUG DFSClient: pipeline = DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]
+21/02/20 13:34:26 DEBUG DFSClient: Connecting to datanode 127.0.0.1:50010
+21/02/20 13:34:26 DEBUG DFSClient: Send buf size 124928
+21/02/20 13:34:26 DEBUG SaslDataTransferClient: SASL client skipping handshake in unsecured configuration for addr = /127.0.0.1, datanodeId = DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=1, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=130048, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 1
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=2, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=130048
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=2, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=195072, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 2
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=3, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=195072
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=3, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=260096, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 3
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=4, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=260096
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=4, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=325120, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 4
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=5, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=325120
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=5, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=390144, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 5
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=6, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=390144
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=6, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=455138, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 6
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=7, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=455138
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=7, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=520192, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 7
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=8, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=520192
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=8, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=585213, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 8
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=9, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=585213
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=9, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=650240, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 9
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=10, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=650240
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=10, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=715264, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 10
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=11, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=715264
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=11, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=780288, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 11
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=12, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=780288
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=12, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=845312, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 12
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=13, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=845312
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=13, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=910336, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 13
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=14, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=910336
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=14, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=975360, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 14
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=15, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=975360
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk packet full seqno=15, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, bytesCurBlock=1040384, blockSize=134217728, appendChunk=false
+21/02/20 13:34:26 DEBUG DFSClient: Queued packet 15
+21/02/20 13:34:26 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:26 DEBUG DFSClient: DFSClient writeChunk allocating new packet seqno=13, src=/user/cloudera/outfilenew10/_temporary/0/_temporary/attempt_202002201334_0001_m_000000_1/part-00000, packetSize=65532, chunksPerPacket=127, bytesCurBlock=1040384
+21/02/20 13:34:27 DEBUG TaskMemoryManager: Task 1 release 0.0 B from org.apache.spark.util.collection.ExternalAppendOnlyMap@f154e7a
+21/02/20 13:34:27 DEBUG DFSClient: Queued packet 13
+21/02/20 13:34:27 DEBUG DFSClient: Queued packet 17
+21/02/20 13:34:27 DEBUG DFSClient: Waiting for ack for: 17
+21/02/20 13:34:27 DEBUG DFSClient: nodes [DatanodeInfoWithStorage[127.0.0.1:50010,DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51,DISK]] storageTypes [DISK] storageIDs [DS-621c9e78-caa3-4a7b-bf10-3c8a1245cb51]
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 0 offsetInBlock: 0 lastPacketInBlock: false lastByteOffsetInBlock: 65024
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 1 offsetInBlock: 65024 lastPacketInBlock: false lastByteOffsetInBlock: 130048
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 2 offsetInBlock: 130048 lastPacketInBlock: false lastByteOffsetInBlock: 195072
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 3 offsetInBlock: 195072 lastPacketInBlock: false lastByteOffsetInBlock: 260096
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 4 offsetInBlock: 260096 lastPacketInBlock: false lastByteOffsetInBlock: 325120
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 5 offsetInBlock: 325120 lastPacketInBlock: false lastByteOffsetInBlock: 390144
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 6 offsetInBlock: 390144 lastPacketInBlock: false lastByteOffsetInBlock: 455138
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 7 offsetInBlock: 455138 lastPacketInBlock: false lastByteOffsetInBlock: 520192
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 8 offsetInBlock: 520192 lastPacketInBlock: false lastByteOffsetInBlock: 585213
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 9 offsetInBlock: 585213 lastPacketInBlock: false lastByteOffsetInBlock: 650240
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 10 offsetInBlock: 650240 lastPacketInBlock: false lastByteOffsetInBlock: 715264
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 11 offsetInBlock: 715264 lastPacketInBlock: false lastByteOffsetInBlock: 780288
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 12 offsetInBlock: 780288 lastPacketInBlock: false lastByteOffsetInBlock: 845312
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 13 offsetInBlock: 845312 lastPacketInBlock: false lastByteOffsetInBlock: 910336
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 14 offsetInBlock: 910336 lastPacketInBlock: false lastByteOffsetInBlock: 975360
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 15 offsetInBlock: 975360 lastPacketInBlock: false lastByteOffsetInBlock: 1040384
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 13 offsetInBlock: 1040384 lastPacketInBlock: false lastByteOffsetInBlock: 1063412
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 0 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 1 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 2 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 3 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 4 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 5 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 6 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 7 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 8 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 9 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 10 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 11 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 12 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 13 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 14 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 15 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 13 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: DataStreamer block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785 sending packet packet seqno: 17 offsetInBlock: 1063412 lastPacketInBlock: true lastByteOffsetInBlock: 1063412
+21/02/20 13:34:27 DEBUG DFSClient: DFSClient seqno: 17 reply: 0 downstreamAckTimeNanos: 0
+21/02/20 13:34:27 DEBUG DFSClient: Closing old block BP-1067413441-127.0.0.1-1508775264580:blk_1073743608_2785
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #8 org.apache.hadoop.hdfs.protocol.ClientProtocol.complete
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #8
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: complete took 5ms
+21/02/20 13:34:27 WARN DFSClient: Caught exception 
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1281)
+	at java.lang.Thread.join(Thread.java:1355)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.closeResponder(DFSOutputStream.java:967)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.endBlock(DFSOutputStream.java:705)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:894)
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #9 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #9
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getFileInfo took 3ms
+21/02/20 13:34:27 DEBUG OutputCommitCoordinator: Authorizing attemptNumber=0 to commit for stage=1, partition=0
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #10 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #10
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getFileInfo took 1ms
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #11 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #11
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getFileInfo took 1ms
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #12 org.apache.hadoop.hdfs.protocol.ClientProtocol.rename
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #12
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: rename took 2ms
+21/02/20 13:34:27 INFO FileOutputCommitter: Saved output of task 'attempt_202002201334_0001_m_000000_1' to hdfs://quickstart.cloudera:8020/user/cloudera/outfilenew10/_temporary/0/task_202002201334_0001_m_000000
+21/02/20 13:34:27 INFO SparkHadoopMapRedUtil: attempt_202002201334_0001_m_000000_1: Committed
+21/02/20 13:34:27 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 2080 bytes result sent to driver
+21/02/20 13:34:27 DEBUG TaskSchedulerImpl: parentName: , name: TaskSet_1, runningTasks: 0
+21/02/20 13:34:27 DEBUG TaskSetManager: No tasks for locality level NODE_LOCAL, so moving to locality level ANY
+21/02/20 13:34:27 INFO DAGScheduler: ResultStage 1 (saveAsTextFile at <console>:32) finished in 1.432 s
+21/02/20 13:34:27 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 1434 ms on localhost (executor driver) (1/1)
+21/02/20 13:34:27 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+21/02/20 13:34:27 DEBUG DAGScheduler: After removal of stage 1, remaining stages = 1
+21/02/20 13:34:27 DEBUG DAGScheduler: After removal of stage 0, remaining stages = 0
+21/02/20 13:34:27 INFO DAGScheduler: Job 0 finished: saveAsTextFile at <console>:32, took 2.726726 s
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #13 org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #13
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getListing took 6ms
+21/02/20 13:34:27 DEBUG FileOutputCommitter: Merging data from FileStatus{path=hdfs://quickstart.cloudera:8020/user/cloudera/outfilenew10/_temporary/0/task_202002201334_0001_m_000000; isDirectory=true; modification_time=1582245266719; access_time=0; owner=cloudera; group=cloudera; permission=rwxr-xr-x; isSymlink=false} to hdfs://quickstart.cloudera:8020/user/cloudera/outfilenew10
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #14 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #14
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getFileInfo took 2ms
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #15 org.apache.hadoop.hdfs.protocol.ClientProtocol.getListing
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #15
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getListing took 2ms
+21/02/20 13:34:27 DEBUG FileOutputCommitter: Merging data from FileStatus{path=hdfs://quickstart.cloudera:8020/user/cloudera/outfilenew10/_temporary/0/task_202002201334_0001_m_000000/part-00000; isDirectory=false; length=1063412; replication=1; blocksize=134217728; modification_time=1582245267071; access_time=1582245266719; owner=cloudera; group=cloudera; permission=rw-r--r--; isSymlink=false} to hdfs://quickstart.cloudera:8020/user/cloudera/outfilenew10/part-00000
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #13 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #13
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: getFileInfo took 1ms
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #17 org.apache.hadoop.hdfs.protocol.ClientProtocol.rename
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #17
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: rename took 2ms
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #18 org.apache.hadoop.hdfs.protocol.ClientProtocol.delete
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #18
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: delete took 8ms
+21/02/20 13:34:27 DEBUG DFSClient: /user/cloudera/outfilenew10/_SUCCESS: masked={ masked: rw-r--r--, unmasked: rw-rw-rw- }
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #19 org.apache.hadoop.hdfs.protocol.ClientProtocol.create
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #19
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: create took 3ms
+21/02/20 13:34:27 DEBUG DFSClient: computePacketChunkSize: src=/user/cloudera/outfilenew10/_SUCCESS, chunkSize=513, chunksPerPacket=127, packetSize=65532
+21/02/20 13:34:27 DEBUG DFSClient: Waiting for ack for: -1
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #20 org.apache.hadoop.hdfs.protocol.ClientProtocol.complete
+21/02/20 13:34:27 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #20
+21/02/20 13:34:27 DEBUG ProtobufRpcEngine: Call: complete took 2ms
+21/02/20 13:34:37 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: closed
+21/02/20 13:34:37 DEBUG Client: IPC Client (843226713) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: stopped, remaining connections 0
+21/02/20 13:34:46 INFO SparkContext: Invoking stop() from shutdown hook
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.Server@45b34782
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping SelectChannelConnector@0.0.0.0:4040
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@7d1bcb8d
+21/02/20 13:34:46 DEBUG nio: Stopped Thread[SparkUI-46 Selector0,5,main] on org.spark-project.jetty.io.nio.SelectorManager$1@2bd0d626
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@7d1bcb8d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping PooledBuffers [0/1024@6144,0/1024@13384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED null/null
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED SelectChannelConnector@0.0.0.0:4040
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@35bfdfd3
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@35bfdfd3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@47ffb136
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@47ffb136
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.DefaultServlet-761e4c7d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.DefaultServlet-761e4c7d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@47ffb136
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/static/sql,null} - org.spark-project.jetty.servlet.ServletHandler@47ffb136 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@32bd0430
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@32bd0430
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-101e38b7
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-101e38b7
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@32bd0430
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/execution/json,null} - org.spark-project.jetty.servlet.ServletHandler@32bd0430 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@175e0556
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@175e0556
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-a732f2d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-a732f2d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@175e0556
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/execution,null} - org.spark-project.jetty.servlet.ServletHandler@175e0556 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1db05d13
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1db05d13
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-2aa54cb4
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-2aa54cb4
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1db05d13
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/json,null} - org.spark-project.jetty.servlet.ServletHandler@1db05d13 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@25af5e94
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@25af5e94
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-490606c0
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-490606c0
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@25af5e94
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL,null} - org.spark-project.jetty.servlet.ServletHandler@25af5e94 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1c6a59e0
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1c6a59e0
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-21bdd48
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-21bdd48
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1c6a59e0
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/metrics/json,null} - org.spark-project.jetty.servlet.ServletHandler@1c6a59e0 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@a328fb3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7d7835ff
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7d7835ff
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$3-4f61306c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$3-4f61306c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7d7835ff
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage/kill,null} - org.spark-project.jetty.servlet.ServletHandler@7d7835ff as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@a328fb3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@a328fb3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@5f2138b3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7e11a08f
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7e11a08f
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping com.sun.jersey.spi.container.servlet.ServletContainer-22eb5cb0
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED com.sun.jersey.spi.container.servlet.ServletContainer-22eb5cb0
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7e11a08f
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/api,null} - org.spark-project.jetty.servlet.ServletHandler@7e11a08f as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@5f2138b3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@5f2138b3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@37444cf2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@6517c036
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@6517c036
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$3-329d3e8
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$3-329d3e8
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@6517c036
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/,null} - org.spark-project.jetty.servlet.ServletHandler@6517c036 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@37444cf2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@37444cf2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@7a4c4d13
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@2758591f
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@2758591f
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.DefaultServlet-7f157b41
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.DefaultServlet-7f157b41
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@2758591f
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/static,null} - org.spark-project.jetty.servlet.ServletHandler@2758591f as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@7a4c4d13
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@7a4c4d13
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@19431367
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@373d126
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@373d126
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-35d7d509
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-35d7d509
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@373d126
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/threadDump/json,null} - org.spark-project.jetty.servlet.ServletHandler@373d126 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@19431367
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@19431367
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@28a8178f
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@33a2c223
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@33a2c223
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-62a0505d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-62a0505d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@33a2c223
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/threadDump,null} - org.spark-project.jetty.servlet.ServletHandler@33a2c223 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@28a8178f
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@28a8178f
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@277a251
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7c41751a
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7c41751a
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-3794d60e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-3794d60e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7c41751a
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/json,null} - org.spark-project.jetty.servlet.ServletHandler@7c41751a as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@277a251
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@277a251
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@2d6f3db1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@623b46c4
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@623b46c4
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-3e3f72f7
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-3e3f72f7
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@623b46c4
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors,null} - org.spark-project.jetty.servlet.ServletHandler@623b46c4 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@2d6f3db1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@2d6f3db1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@21a3203e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5c99d7b2
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5c99d7b2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-182d3931
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-182d3931
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5c99d7b2
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/environment/json,null} - org.spark-project.jetty.servlet.ServletHandler@5c99d7b2 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@21a3203e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@21a3203e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@7820139c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@2ac9961
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@2ac9961
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-7e3ff210
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-7e3ff210
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@2ac9961
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/environment,null} - org.spark-project.jetty.servlet.ServletHandler@2ac9961 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@7820139c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@7820139c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@1189b0a6
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@66ac6b48
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@66ac6b48
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-46c0fe04
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-46c0fe04
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@66ac6b48
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/rdd/json,null} - org.spark-project.jetty.servlet.ServletHandler@66ac6b48 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@1189b0a6
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@1189b0a6
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@41b778a1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7450b3bb
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7450b3bb
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-7624d4d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-7624d4d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7450b3bb
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/rdd,null} - org.spark-project.jetty.servlet.ServletHandler@7450b3bb as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@41b778a1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@41b778a1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@5e47f5a5
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@465053fe
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@465053fe
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-228df742
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-228df742
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@465053fe
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/json,null} - org.spark-project.jetty.servlet.ServletHandler@465053fe as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@5e47f5a5
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@5e47f5a5
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@43ba6cc2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@43a574b
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@43a574b
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-93d77f3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-93d77f3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@43a574b
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage,null} - org.spark-project.jetty.servlet.ServletHandler@43a574b as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@43ba6cc2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@43ba6cc2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@1238ff18
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5bf38a00
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5bf38a00
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4aa3a04
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4aa3a04
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5bf38a00
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/pool/json,null} - org.spark-project.jetty.servlet.ServletHandler@5bf38a00 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@1238ff18
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@1238ff18
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@51e93529
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@25a140c2
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@25a140c2
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4660ea1d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4660ea1d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@25a140c2
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/pool,null} - org.spark-project.jetty.servlet.ServletHandler@25a140c2 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@51e93529
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@51e93529
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@7da293da
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@3c990da6
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@3c990da6
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-18af0ef
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-18af0ef
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@3c990da6
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage/json,null} - org.spark-project.jetty.servlet.ServletHandler@3c990da6 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@7da293da
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@7da293da
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@644f2c5e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@9ea02c5
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@9ea02c5
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-340a1392
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-340a1392
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@9ea02c5
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage,null} - org.spark-project.jetty.servlet.ServletHandler@9ea02c5 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@644f2c5e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@644f2c5e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@625bd898
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7be9159a
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7be9159a
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-6e5d8f3d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-6e5d8f3d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7be9159a
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/json,null} - org.spark-project.jetty.servlet.ServletHandler@7be9159a as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@625bd898
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@625bd898
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@3897104
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@345abf6c
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@345abf6c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-37cad6c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-37cad6c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@345abf6c
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages,null} - org.spark-project.jetty.servlet.ServletHandler@345abf6c as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@3897104
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@3897104
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@31cd664e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@23f7a46d
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@23f7a46d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-5acfd672
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-5acfd672
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@23f7a46d
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/job/json,null} - org.spark-project.jetty.servlet.ServletHandler@23f7a46d as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@31cd664e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@31cd664e
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@574c028d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@3f3ba3c1
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@3f3ba3c1
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4a580d47
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4a580d47
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@3f3ba3c1
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/job,null} - org.spark-project.jetty.servlet.ServletHandler@3f3ba3c1 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@574c028d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@574c028d
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@647bf455
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5e62bfd
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5e62bfd
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-68394e81
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-68394e81
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5e62bfd
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/json,null} - org.spark-project.jetty.servlet.ServletHandler@5e62bfd as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@647bf455
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@647bf455
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@4a51f211
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@49eb6035
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@49eb6035
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-939bcf3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-939bcf3
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@49eb6035
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:34:46 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:34:46 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs,null} - org.spark-project.jetty.servlet.ServletHandler@49eb6035 as handler
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@4a51f211
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@4a51f211
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.ContextHandlerCollection@35bfdfd3
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.Server@45b34782
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.ErrorHandler@7bf95d7c
+21/02/20 13:34:46 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.ErrorHandler@7bf95d7c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.ErrorHandler@7bf95d7c
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: stopping SparkUI{8<=8<=8/254,0}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED SparkUI{8<=0<=0/254,0}
+21/02/20 13:34:46 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.Server@45b34782
+21/02/20 13:34:46 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+21/02/20 13:34:46 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/02/20 13:34:46 INFO MemoryStore: MemoryStore cleared
+21/02/20 13:34:46 INFO BlockManager: BlockManager stopped
+21/02/20 13:34:46 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/02/20 13:34:46 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/02/20 13:34:46 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+21/02/20 13:34:46 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+21/02/20 13:34:46 INFO SparkContext: Successfully stopped SparkContext
+21/02/20 13:34:46 INFO ShutdownHookManager: Shutdown hook called
+21/02/20 13:34:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-3b3ac86b-668b-4dca-8fda-8f9f22544131
+21/02/20 13:34:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-edb6625a-7e29-4f51-9fd0-133c9dd74039
+21/02/20 13:34:46 INFO ShutdownHookManager: Deleting directory /tmp/spark-edb6625a-7e29-4f51-9fd0-133c9dd74039/repl-db3a0999-3ee9-40c4-9654-4f328fc07f6b
+21/02/20 13:34:46 DEBUG Client: stopping client from cache: org.apache.hadoop.ipc.Client@1c5a3068
+21/02/20 13:34:46 DEBUG Client: removing client from cache: org.apache.hadoop.ipc.Client@1c5a3068
+21/02/20 13:34:46 DEBUG Client: stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@1c5a3068
+21/02/20 13:34:46 DEBUG Client: Stopping client
+21/02/20 13:35:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/02/20 13:35:22 WARN Utils: Your hostname, quickstart.cloudera resolves to a loopback address: 127.0.0.1; using 10.0.2.15 instead (on interface eth0)
+21/02/20 13:35:22 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+21/02/20 13:35:27 WARN DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+21/02/20 13:35:32 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 99.9 KB, free 534.4 MB)
+21/02/20 13:35:32 DEBUG BlockManager: Put block broadcast_0 locally took  121 ms
+21/02/20 13:35:32 DEBUG BlockManager: Putting block broadcast_0 without replication took  121 ms
+21/02/20 13:35:32 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 24.6 KB, free 534.4 MB)
+21/02/20 13:35:32 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:54077 (size: 24.6 KB, free: 534.5 MB)
+21/02/20 13:35:32 DEBUG BlockManagerMaster: Updated info of block broadcast_0_piece0
+21/02/20 13:35:32 DEBUG BlockManager: Told master about block broadcast_0_piece0
+21/02/20 13:35:32 DEBUG BlockManager: Put block broadcast_0_piece0 locally took  490 ms
+21/02/20 13:35:32 DEBUG BlockManager: Putting block broadcast_0_piece0 without replication took  491 ms
+21/02/20 13:35:32 INFO SparkContext: Created broadcast 0 from textFile at <console>:27
+21/02/20 13:35:32 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34) +++
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared fields: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.serialVersionUID
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final org.apache.spark.SparkContext$$anonfun$hadoopFile$1 org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.$outer
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.apply(java.lang.Object)
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final void org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34.apply(org.apache.hadoop.mapred.JobConf)
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer classes: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext$$anonfun$hadoopFile$1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer objects: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      <function0>
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext@4fc73af6
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext$$anonfun$hadoopFile$1,Set(path$6))
+21/02/20 13:35:32 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext,Set())
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.SparkContext,org.apache.spark.SparkContext@4fc73af6)
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + cloning the object <function0> of class org.apache.spark.SparkContext$$anonfun$hadoopFile$1
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + cleaning cloned closure <function0> recursively (org.apache.spark.SparkContext$$anonfun$hadoopFile$1)
+21/02/20 13:35:32 DEBUG ClosureCleaner: +++ Cleaning closure <function0> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1) +++
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared fields: 7
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$hadoopFile$1.serialVersionUID
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final org.apache.spark.SparkContext org.apache.spark.SparkContext$$anonfun$hadoopFile$1.$outer
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final java.lang.String org.apache.spark.SparkContext$$anonfun$hadoopFile$1.path$6
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.inputFormatClass$1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.keyClass$1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final java.lang.Class org.apache.spark.SparkContext$$anonfun$hadoopFile$1.valueClass$1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      private final int org.apache.spark.SparkContext$$anonfun$hadoopFile$1.minPartitions$3
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$hadoopFile$1.apply()
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final org.apache.spark.rdd.HadoopRDD org.apache.spark.SparkContext$$anonfun$hadoopFile$1.apply()
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + inner classes: 1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer classes: 1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer objects: 1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      org.apache.spark.SparkContext@4fc73af6
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + fields accessed by starting closure: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext$$anonfun$hadoopFile$1,Set(path$6))
+21/02/20 13:35:32 DEBUG ClosureCleaner:      (class org.apache.spark.SparkContext,Set())
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outermost object is not a closure, so do not clone it: (class org.apache.spark.SparkContext,org.apache.spark.SparkContext@4fc73af6)
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + the starting closure doesn't actually need org.apache.spark.SparkContext@4fc73af6, so we null it out
+21/02/20 13:35:32 DEBUG ClosureCleaner:  +++ closure <function0> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1) is now cleaned +++
+21/02/20 13:35:32 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.SparkContext$$anonfun$hadoopFile$1$$anonfun$34) is now cleaned +++
+21/02/20 13:35:32 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9) +++
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public static final long org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.serialVersionUID
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.apply(java.lang.Object)
+21/02/20 13:35:32 DEBUG ClosureCleaner:      public final java.lang.String org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9.apply(scala.Tuple2)
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:32 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:33 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:33 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.SparkContext$$anonfun$textFile$1$$anonfun$apply$9) is now cleaned +++
+21/02/20 13:35:35 DEBUG ClosureCleaner: +++ Cleaning closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2) +++
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.serialVersionUID
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.apply(java.lang.Object)
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public final scala.collection.mutable.ArrayOps $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2.apply(java.lang.String)
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:35 DEBUG ClosureCleaner:  +++ closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$2) is now cleaned +++
+21/02/20 13:35:35 DEBUG ClosureCleaner: +++ Cleaning closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3) +++
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.serialVersionUID
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.apply(java.lang.Object)
+21/02/20 13:35:35 DEBUG ClosureCleaner:      public final scala.Tuple2 $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3.apply(java.lang.String)
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:35 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:35 DEBUG ClosureCleaner:  +++ closure <function1> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$3) is now cleaned +++
+21/02/20 13:35:35 DEBUG BlockManager: Getting local block broadcast_0
+21/02/20 13:35:35 DEBUG BlockManager: Level for block broadcast_0 is StorageLevel(true, true, false, true, 1)
+21/02/20 13:35:35 DEBUG BlockManager: Getting block broadcast_0 from memory
+21/02/20 13:35:35 DEBUG HadoopRDD: Creating new JobConf and caching it for later re-use
+21/02/20 13:35:35 DEBUG Client: The ping interval is 60000 ms.
+21/02/20 13:35:35 DEBUG Client: Connecting to quickstart.cloudera/127.0.0.1:8020
+21/02/20 13:35:35 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: starting, having connections 1
+21/02/20 13:35:35 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #0 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:35:35 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #0
+21/02/20 13:35:35 DEBUG ProtobufRpcEngine: Call: getFileInfo took 114ms
+21/02/20 13:35:35 DEBUG FileInputFormat: Time taken to get FileStatuses: 131
+21/02/20 13:35:35 INFO FileInputFormat: Total input paths to process : 1
+21/02/20 13:35:35 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #1 org.apache.hadoop.hdfs.protocol.ClientProtocol.getBlockLocations
+21/02/20 13:35:35 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #1
+21/02/20 13:35:35 DEBUG ProtobufRpcEngine: Call: getBlockLocations took 2ms
+21/02/20 13:35:36 DEBUG FileInputFormat: Total # of splits generated by getSplits: 1, TimeTaken: 683
+21/02/20 13:35:36 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13) +++
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13.serialVersionUID
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared methods: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13.apply(java.lang.Object)
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:36 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.rdd.PairRDDFunctions$$anonfun$reduceByKey$1$$anonfun$apply$13) is now cleaned +++
+21/02/20 13:35:36 DEBUG ClosureCleaner: +++ Cleaning closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) +++
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.serialVersionUID
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared methods: 3
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply$mcIII$sp(int,int)
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(int,int)
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(java.lang.Object,java.lang.Object)
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:36 DEBUG ClosureCleaner:  +++ closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) is now cleaned +++
+21/02/20 13:35:36 DEBUG ClosureCleaner: +++ Cleaning closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) +++
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public static final long $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.serialVersionUID
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared methods: 3
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply$mcIII$sp(int,int)
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final int $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(int,int)
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final java.lang.Object $line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1.apply(java.lang.Object,java.lang.Object)
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + inner classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:36 DEBUG ClosureCleaner:  +++ closure <function2> ($line20.$read$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$iwC$$anonfun$1) is now cleaned +++
+21/02/20 13:35:36 DEBUG ClosureCleaner: +++ Cleaning closure <function1> (org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30) +++
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared fields: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public static final long org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.serialVersionUID
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + declared methods: 2
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final java.lang.Object org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.apply(java.lang.Object)
+21/02/20 13:35:36 DEBUG ClosureCleaner:      public final scala.collection.Iterator org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30.apply(scala.collection.Iterator)
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + inner classes: 1
+21/02/20 13:35:36 DEBUG ClosureCleaner:      org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30$$anonfun$apply$53
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer classes: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + outer objects: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + populating accessed fields because this is the starting closure
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + fields accessed by starting closure: 0
+21/02/20 13:35:36 DEBUG ClosureCleaner:  + there are no enclosing objects!
+21/02/20 13:35:36 DEBUG ClosureCleaner:  +++ closure <function1> (org.apache.spark.rdd.RDD$$anonfun$saveAsTextFile$1$$anonfun$30) is now cleaned +++
+21/02/20 13:35:36 DEBUG PairRDDFunctions: Saving as hadoop file of type (NullWritable, Text)
+21/02/20 13:35:36 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera sending #2 org.apache.hadoop.hdfs.protocol.ClientProtocol.getFileInfo
+21/02/20 13:35:36 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera got value #2
+21/02/20 13:35:36 DEBUG ProtobufRpcEngine: Call: getFileInfo took 4ms
+21/02/20 13:35:46 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: closed
+21/02/20 13:35:46 DEBUG Client: IPC Client (866778838) connection to quickstart.cloudera/127.0.0.1:8020 from cloudera: stopped, remaining connections 0
+21/02/20 13:35:48 INFO SparkContext: Invoking stop() from shutdown hook
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.Server@5942f24a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping SelectChannelConnector@0.0.0.0:4040
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@3fbbb2f3
+21/02/20 13:35:48 DEBUG nio: Stopped Thread[SparkUI-45 Selector0,5,main] on org.spark-project.jetty.io.nio.SelectorManager$1@55c2a649
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@3fbbb2f3
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping PooledBuffers [0/1024@6144,0/1024@13384,0/1024@-]/PooledBuffers [0/1024@6144,0/1024@32768,0/1024@-]
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED null/null
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED SelectChannelConnector@0.0.0.0:4040
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@176057e0
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.ContextHandlerCollection@176057e0
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@36293f1d
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@36293f1d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.DefaultServlet-5fe1ce48
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.DefaultServlet-5fe1ce48
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@36293f1d
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/static/sql,null} - org.spark-project.jetty.servlet.ServletHandler@36293f1d as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/static/sql,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@395b6784
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@395b6784
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-60659b50
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-60659b50
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@395b6784
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/execution/json,null} - org.spark-project.jetty.servlet.ServletHandler@395b6784 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/execution/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1fe92887
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1fe92887
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-301d7ea5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-301d7ea5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1fe92887
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/execution,null} - org.spark-project.jetty.servlet.ServletHandler@1fe92887 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/execution,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@463c76f
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@463c76f
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-7d120709
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-7d120709
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@463c76f
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL/json,null} - org.spark-project.jetty.servlet.ServletHandler@463c76f as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@32ba4aa9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@32ba4aa9
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4a4ed34b
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4a4ed34b
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@32ba4aa9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/SQL,null} - org.spark-project.jetty.servlet.ServletHandler@32ba4aa9 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/SQL,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@647bb743
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@647bb743
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-735ca30c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-735ca30c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@647bb743
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/metrics/json,null} - org.spark-project.jetty.servlet.ServletHandler@647bb743 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/metrics/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@763cc33e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@f365817
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@f365817
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$3-75b22b2a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$3-75b22b2a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@f365817
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage/kill,null} - org.spark-project.jetty.servlet.ServletHandler@f365817 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@763cc33e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@763cc33e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@38d155ce
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@37586486
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@37586486
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping com.sun.jersey.spi.container.servlet.ServletContainer-a1238b9
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED com.sun.jersey.spi.container.servlet.ServletContainer-a1238b9
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@37586486
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/api,null} - org.spark-project.jetty.servlet.ServletHandler@37586486 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/api,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@38d155ce
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@38d155ce
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@c2fb5cd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1048abfb
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1048abfb
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$3-2f1725f7
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$3-2f1725f7
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1048abfb
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/,null} - org.spark-project.jetty.servlet.ServletHandler@1048abfb as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@c2fb5cd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@c2fb5cd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@1312f417
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@41571bc9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@41571bc9
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.DefaultServlet-5b4f2995
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.DefaultServlet-5b4f2995
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@41571bc9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/static,null} - org.spark-project.jetty.servlet.ServletHandler@41571bc9 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/static,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@1312f417
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@1312f417
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@3de14aa2
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@11eaf13b
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@11eaf13b
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-6ce35d7c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-6ce35d7c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@11eaf13b
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/threadDump/json,null} - org.spark-project.jetty.servlet.ServletHandler@11eaf13b as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@3de14aa2
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@3de14aa2
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@578fb0fd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1aacdef4
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1aacdef4
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-afc3c41
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-afc3c41
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1aacdef4
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/threadDump,null} - org.spark-project.jetty.servlet.ServletHandler@1aacdef4 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@578fb0fd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@578fb0fd
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@4b6172da
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@6abb6cdf
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@6abb6cdf
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-c714da4
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-c714da4
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@6abb6cdf
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors/json,null} - org.spark-project.jetty.servlet.ServletHandler@6abb6cdf as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@4b6172da
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@4b6172da
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@36e8db37
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7190140a
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7190140a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-3794d60e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-3794d60e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7190140a
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/executors,null} - org.spark-project.jetty.servlet.ServletHandler@7190140a as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/executors,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@36e8db37
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@36e8db37
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@2a13d6c5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7c793517
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7c793517
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4105cc5d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4105cc5d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7c793517
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/environment/json,null} - org.spark-project.jetty.servlet.ServletHandler@7c793517 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/environment/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@2a13d6c5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@2a13d6c5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@798cb8d8
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5bbab40
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5bbab40
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-182d3931
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-182d3931
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5bbab40
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/environment,null} - org.spark-project.jetty.servlet.ServletHandler@5bbab40 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/environment,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@798cb8d8
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@798cb8d8
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@63e7f9b0
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@12b9c50e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@12b9c50e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-2864dce6
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-2864dce6
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@12b9c50e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/rdd/json,null} - org.spark-project.jetty.servlet.ServletHandler@12b9c50e as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@63e7f9b0
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@63e7f9b0
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@623823bc
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@53b23e04
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@53b23e04
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-46c0fe04
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-46c0fe04
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@53b23e04
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/rdd,null} - org.spark-project.jetty.servlet.ServletHandler@53b23e04 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/rdd,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@623823bc
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@623823bc
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@5b05a389
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@4f33a60e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@4f33a60e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-13641fc7
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-13641fc7
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@4f33a60e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage/json,null} - org.spark-project.jetty.servlet.ServletHandler@4f33a60e as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@5b05a389
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@5b05a389
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@47db09c1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@7d5d82c1
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@7d5d82c1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-228df742
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-228df742
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@7d5d82c1
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/storage,null} - org.spark-project.jetty.servlet.ServletHandler@7d5d82c1 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/storage,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@47db09c1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@47db09c1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@6338d34
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@227b541a
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@227b541a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-43c6df00
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-43c6df00
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@227b541a
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/pool/json,null} - org.spark-project.jetty.servlet.ServletHandler@227b541a as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@6338d34
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@6338d34
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@4ece88a5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@596d310e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@596d310e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-4aa3a04
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-4aa3a04
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@596d310e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/pool,null} - org.spark-project.jetty.servlet.ServletHandler@596d310e as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/pool,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@4ece88a5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@4ece88a5
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@fafbc00
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5a5fac0b
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5a5fac0b
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-48cfdbb3
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-48cfdbb3
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5a5fac0b
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage/json,null} - org.spark-project.jetty.servlet.ServletHandler@5a5fac0b as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@fafbc00
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@fafbc00
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@3f183487
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@4e20ab6d
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@4e20ab6d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-18af0ef
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-18af0ef
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@4e20ab6d
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/stage,null} - org.spark-project.jetty.servlet.ServletHandler@4e20ab6d as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/stage,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@3f183487
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@3f183487
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@42d6a92d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@1afceba3
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@1afceba3
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-40672666
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-40672666
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@1afceba3
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages/json,null} - org.spark-project.jetty.servlet.ServletHandler@1afceba3 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@42d6a92d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@42d6a92d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@52d2282c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@634b8b2e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@634b8b2e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-6e5d8f3d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-6e5d8f3d
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@634b8b2e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/stages,null} - org.spark-project.jetty.servlet.ServletHandler@634b8b2e as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/stages,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@52d2282c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@52d2282c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@749eabef
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@5d2a13b9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@5d2a13b9
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-30804f2
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-30804f2
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@5d2a13b9
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/job/json,null} - org.spark-project.jetty.servlet.ServletHandler@5d2a13b9 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@749eabef
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@749eabef
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@75750677
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@55fbaadf
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@55fbaadf
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-5acfd672
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-5acfd672
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@55fbaadf
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/job,null} - org.spark-project.jetty.servlet.ServletHandler@55fbaadf as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/job,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@75750677
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@75750677
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@7d8f4292
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@485bbfa4
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@485bbfa4
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-a512c9c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-a512c9c
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@485bbfa4
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs/json,null} - org.spark-project.jetty.servlet.ServletHandler@485bbfa4 as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs/json,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@7d8f4292
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@7d8f4292
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.GzipHandler@7f82cd18
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.servlet.ServletHandler@6467240e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.servlet.ServletHandler@6467240e
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.apache.spark.ui.JettyUtils$$anon$2-2da3fa40
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.apache.spark.ui.JettyUtils$$anon$2-2da3fa40
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.servlet.ServletHandler@6467240e
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:35:48 INFO ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:35:48 DEBUG Container: Container o.s.j.s.ServletContextHandler{/jobs,null} - org.spark-project.jetty.servlet.ServletHandler@6467240e as handler
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED o.s.j.s.ServletContextHandler{/jobs,null}
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.GzipHandler@7f82cd18
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.GzipHandler@7f82cd18
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.ContextHandlerCollection@176057e0
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.Server@5942f24a
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping org.spark-project.jetty.server.handler.ErrorHandler@2f7046a1
+21/02/20 13:35:48 DEBUG AbstractHandler: stopping org.spark-project.jetty.server.handler.ErrorHandler@2f7046a1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.handler.ErrorHandler@2f7046a1
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: stopping SparkUI{8<=8<=8/254,0}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED SparkUI{8<=0<=0/254,0}
+21/02/20 13:35:48 DEBUG AbstractLifeCycle: STOPPED org.spark-project.jetty.server.Server@5942f24a
+21/02/20 13:35:48 INFO SparkUI: Stopped Spark web UI at http://10.0.2.15:4040
+21/02/20 13:35:48 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+21/02/20 13:35:48 INFO MemoryStore: MemoryStore cleared
+21/02/20 13:35:48 INFO BlockManager: BlockManager stopped
+21/02/20 13:35:48 INFO BlockManagerMaster: BlockManagerMaster stopped
+21/02/20 13:35:48 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+21/02/20 13:35:48 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+21/02/20 13:35:48 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+21/02/20 13:35:48 INFO SparkContext: Successfully stopped SparkContext
+21/02/20 13:35:48 INFO ShutdownHookManager: Shutdown hook called
+21/02/20 13:35:48 INFO ShutdownHookManager: Deleting directory /tmp/spark-7ca5a250-4e8b-4498-96c3-965a4368204d
+21/02/20 13:35:48 INFO ShutdownHookManager: Deleting directory /tmp/spark-f944557e-3b07-477a-ace1-1a171ad410be
+21/02/20 13:35:48 INFO ShutdownHookManager: Deleting directory /tmp/spark-7ca5a250-4e8b-4498-96c3-965a4368204d/repl-4ee76dd8-945e-4a8a-8358-4fae2a0392fd
+21/02/20 13:35:48 DEBUG Client: stopping client from cache: org.apache.hadoop.ipc.Client@63513b29
+21/02/20 13:35:48 DEBUG Client: removing client from cache: org.apache.hadoop.ipc.Client@63513b29
+21/02/20 13:35:48 DEBUG Client: stopping actual client because no more references remain: org.apache.hadoop.ipc.Client@63513b29
+21/02/20 13:35:48 DEBUG Client: Stopping client
