@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PB Phase2 Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>img {max-width:100%}
+    .model-dialog {max-width: 90% !important}</style>
+    <script type="text/javascript">
+      $(document).ready(function () {
+            $(".modal-dialog").css("width", "90%");
+      });
+      </script>
+</head>
+<style>
+h1 {text-align: center;}
+h2 {text-align: center;}
+body{
+background-image: url('https://image.freepik.com/free-photo/dark-blue-product-background_53876-89503.jpg') ;
+}
+</style>
+<body>
+<h1 style="color:white">Principles Of BigData Management</h1>
+<h2 style="color:white">Project(Phase-II)::Output_records</h2>
+<table class="table table-hover table-condensed table-striped table-bordered">
+<table border="1"
+width=100%
+height=200%
+cellpadding="15"
+style="color:white;">
+    <tr>
+      <th scope="col">Sno</th>
+      <th scope="col">Queries</th>
+        <th scope="col">Visualized_Output</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td> Users with most number of followers</td>
+        <td><a href="#" data-toggle="modal" data-target="#myModal"><img src="graphs.PNG"></a>
+        </td>
+         
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Number of tweets based on a Day</td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal1"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+   <tr>
+      <th scope="row">3</th>
+      <td> Users with most Number of Tweets</td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal2"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">4</th>
+      <td> Users with more number of retweets for his tweet</td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal3"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">5</th>
+      <td> No of Tweets for a particular player </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal4"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">6</th>
+      <td> Number of Tweets created by Users per year </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal5"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">7</th>
+      <td> Top Countries where Tweets came from </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal6"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">8</th>
+      <td> Tweets posted on weekend and weekday </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal7"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">9</th>
+      <td> Tweet count based on language </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal8"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  <tr>
+      <th scope="row">10</th>
+      <td> Number of Tweets by users based on month </td>
+      <td><a href="#" data-toggle="modal" data-target="#myModal9"><img src="graphs.PNG"></a></td>
+       
+    </tr>
+  </tbody>
+</table>
+ <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Users with most number of followers</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/1"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+ <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Number of tweets based on a Day</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/2"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+<div class="modal" id="myModal2">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Users with most Number of Tweets</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/3"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Users with more number of retweets for his tweet</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/4"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal4">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">No of Tweets for a particular player</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/5"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal5">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Number of Tweets created by Users per year</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/6"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal6">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Top Countries where Tweets came from</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/7"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal7">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Tweets posted on weekend and weekday </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/8"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal8">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Tweet count based on language</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/9"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+<div class="modal" id="myModal9">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Number of Tweets by users based on month</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+            <img src="http://localhost:5000/query/10"/>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
