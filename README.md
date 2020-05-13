@@ -3,3 +3,8 @@ Extracted tweets from twitter with the help of tweepy library and secret tokens.
 
 Phase-2:
 The JSON file is analysed using spark and queries are written. The queries are executed using Pycharm IDE and Outputs are visualized into graphs. The web application is developed using HTML,CSS.
+
+Docker:
+
+Containerised the whole application through docker.
+docker run -dt -p 5000:5000 harun2703/pb_project
